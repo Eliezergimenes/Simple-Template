@@ -1,0 +1,49 @@
+body{
+	overflow-x: hidden;}
+.navbar-inverse{
+	background: #fff;
+	border-color: #fff;}
+.navbar-inverse .navbar-nav>li>a{
+	padding: 20px;
+	color: #000;}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #000;
+	border-bottom: 3px solid orange;}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle{
+	background: #000;}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background: gray;}
+.capa{
+	background: url(images/capa.jpg)center;
+	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 63px;}
+.logo{
+	padding: 50px;
+	text-align: center;}
+.logo h1{
+	font-size: 45px;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 10px;
+	text-shadow: black;}
+.logo p{
+	color: orange;
+	font-style: italic;}
+@media screen and (max-width: 500px){
+.logo h1{
+		font-size: 25px;}
+.logo p{
+		font-size: 15px;}}
+a:focus, a{
+	color: #000;}
+a:focus, a:hover{
+	text-decoration: none;}
+.about{
+	padding: 0px 20px 20px 20px;
+	text-align: center;}
+.glyphicon{
+	text-align: center;
+	font-size: 50px;
+}
